@@ -14,4 +14,9 @@ Pod::Spec.new do |s|
 	s.public_header_files = 'FrameworkWrapperUniversal.framework/Headers/*.h'
 	s.vendored_frameworks  = 'FrameworkWrapperUniversal.framework'
 	s.resource   = 'FrameworkWrapperUniversal.framework/DocuSignSDK.bundle'
+        s.dependency 'DocuSign', '~> 2.4.1'
+
+        s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+        s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
 end
