@@ -1,0 +1,6 @@
+framework module FrameworkWrapperUniversal {
+  umbrella header "FrameworkWrapperUniversal.h"
+
+  export *
+  module * { export * }
+}
