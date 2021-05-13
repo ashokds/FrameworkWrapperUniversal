@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		TId96ijyxOKEuUz9eDXPwRUhRqc=
+		</data>
 		<key>DocuSignSDK.bundle/Maven Pro Font/Maven Pro Black.otf</key>
 		<data>
 		fj0pwpU1mMjXw7jNzIVwgtRRqBE=
@@ -138,11 +142,11 @@
 		</dict>
 		<key>Headers/FrameworkWrapperUniversal.h</key>
 		<data>
-		1ODdb3t4jU6VG01SgPA+BFXqGAY=
+		1Ocp0Si1c9dh3WWeA0tctd+kRoU=
 		</data>
 		<key>Headers/WrapperManager.h</key>
 		<data>
-		gQTKllLTAFfAlWLGCq9B2gZ1t+Y=
+		3JJwKQNd2uLP0wvTiyUAxcNZMOE=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -309,14 +313,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fhzfcvwp3h7laOCUVbMqKrVX4tKLeyKtbAwl34yGuPo=
+			NvsSlgto2DNHGsFJo56JLxMCeC26c6MTj1aDO3+Rpqc=
 			</data>
 		</dict>
 		<key>Headers/WrapperManager.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zX1SOAch/mhHmtufr6ohE2Km81CaWlCEpN9AzIbSr2Q=
+			Cip2hIb52LOA5eMxwOYyw6iR67LJqnaFjzfP5K7q30w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

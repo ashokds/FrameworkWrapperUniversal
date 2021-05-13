@@ -8,4 +8,4 @@ FOUNDATION_EXPORT const unsigned char FrameworkWrapperUniversalVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <FrameworkWrapperUniversal/PublicHeader.h>
 
-#import <WrapperManager.h>
+#import <FrameworkWrapperUniversal/WrapperManager.h>
