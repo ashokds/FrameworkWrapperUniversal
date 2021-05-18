@@ -1,0 +1,16 @@
+PODS:
+  - DocuSign (2.5)
+
+DEPENDENCIES:
+  - DocuSign
+
+SPEC REPOS:
+  trunk:
+    - DocuSign
+
+SPEC CHECKSUMS:
+  DocuSign: 250830b679df251ffca94f6bde2a0071f4745216
+
+PODFILE CHECKSUM: f91828875dfc0f5dd6655f02c99a46c29165ed5c
+
+COCOAPODS: 1.10.1

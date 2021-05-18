@@ -34,7 +34,7 @@ public class Login {
     
     private func handlePostLogin(accountInfo: DSMAccountInfo?, error: Error?) {
         if let error = error {
-            print("Error logging in")
+            print("Error logging in: " + error.localizedDescription)
         } else {
             print("User authenticated!")
         }

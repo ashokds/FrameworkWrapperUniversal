@@ -1,0 +1,1 @@
+./podlint.sh > output.log

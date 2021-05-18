@@ -5,8 +5,6 @@ target 'FrameworkWrapper' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for FrameworkWrapper
-  # DocuSign
   pod 'DocuSign'
   target 'FrameworkWrapperTests' do
     # Pods for testing
