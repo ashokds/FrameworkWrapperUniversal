@@ -12,4 +12,12 @@ Pod::Spec.new do |s|
 	s.source = { :git => 'https://github.com/ashokds/FrameworkWrapperUniversal.git', :tag => s.version.to_s }
 	s.source_files = 'FrameworkWrapper/**/*'
 	s.dependency 'DocuSign', '2.5.0'
+	s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
+	s.test_spec 'FrameworkWrapperTests' do |test_spec|
+	    test_spec.source_files = 'FrameworkWrapperTests/Tests/**/*.swift'
+		test_spec.resources = 'FrameworkWrapperTests/Resources/**/*.{plist,json,png,bundle}'
+		test_spec.test_type = :unit
+	end
 end

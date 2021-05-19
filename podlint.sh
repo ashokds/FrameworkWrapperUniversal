@@ -5,4 +5,5 @@ xcodebuild -version
 echo "start pod lib lint"
 pod lib lint --allow-warnings --verbose
 echo "end pod lib lint"
+date
 time

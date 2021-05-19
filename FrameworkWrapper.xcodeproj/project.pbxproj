@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		41B6FFE1264DD4B70008905A /* FrameworkWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B6FFD7264DD4B70008905A /* FrameworkWrapper.framework */; };
-		41B6FFE6264DD4B70008905A /* FrameworkWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B6FFE5264DD4B70008905A /* FrameworkWrapperTests.swift */; };
 		41B6FFE8264DD4B70008905A /* FrameworkWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 41B6FFDA264DD4B70008905A /* FrameworkWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41B6FFF2264DD5480008905A /* EmbeddedSigningWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B6FFF1264DD5480008905A /* EmbeddedSigningWrapper.swift */; };
 		41EAA60B2654677100321A66 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41EAA60A2654677100321A66 /* Info.plist */; };
+		41EAA60F265492EB00321A66 /* Tests in Resources */ = {isa = PBXBuildFile; fileRef = 41EAA60E265492EB00321A66 /* Tests */; };
+		41EAA615265493BF00321A66 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 41EAA614265493BF00321A66 /* Resources */; };
 		5F67B3B667290BA00930B7F2 /* Pods_FrameworkWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614DCF83FC7457D30970F987 /* Pods_FrameworkWrapper.framework */; };
 		9E14F27FEB512C8BA36A8B58 /* Pods_FrameworkWrapper_FrameworkWrapperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D7FDEB4FA07907DEAC02FA /* Pods_FrameworkWrapper_FrameworkWrapperTests.framework */; };
 /* End PBXBuildFile section */
@@ -31,10 +32,11 @@
 		41B6FFD7264DD4B70008905A /* FrameworkWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B6FFDA264DD4B70008905A /* FrameworkWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkWrapper.h; sourceTree = "<group>"; };
 		41B6FFE0264DD4B70008905A /* FrameworkWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrameworkWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		41B6FFE5264DD4B70008905A /* FrameworkWrapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkWrapperTests.swift; sourceTree = "<group>"; };
 		41B6FFE7264DD4B70008905A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41B6FFF1264DD5480008905A /* EmbeddedSigningWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedSigningWrapper.swift; sourceTree = "<group>"; };
 		41EAA60A2654677100321A66 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41EAA60E265492EB00321A66 /* Tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tests; sourceTree = "<group>"; };
+		41EAA614265493BF00321A66 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 		614DCF83FC7457D30970F987 /* Pods_FrameworkWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FrameworkWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7438D15DDBDC108361623977 /* Pods-FrameworkWrapper-FrameworkWrapperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrameworkWrapper-FrameworkWrapperTests.release.xcconfig"; path = "Target Support Files/Pods-FrameworkWrapper-FrameworkWrapperTests/Pods-FrameworkWrapper-FrameworkWrapperTests.release.xcconfig"; sourceTree = "<group>"; };
 		C8D7FDEB4FA07907DEAC02FA /* Pods_FrameworkWrapper_FrameworkWrapperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FrameworkWrapper_FrameworkWrapperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,7 +98,8 @@
 		41B6FFE4264DD4B70008905A /* FrameworkWrapperTests */ = {
 			isa = PBXGroup;
 			children = (
-				41B6FFE5264DD4B70008905A /* FrameworkWrapperTests.swift */,
+				41EAA614265493BF00321A66 /* Resources */,
+				41EAA60E265492EB00321A66 /* Tests */,
 				41B6FFE7264DD4B70008905A /* Info.plist */,
 			);
 			path = FrameworkWrapperTests;
@@ -228,6 +231,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41EAA615265493BF00321A66 /* Resources in Resources */,
+				41EAA60F265492EB00321A66 /* Tests in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +349,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41B6FFE6264DD4B70008905A /* FrameworkWrapperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
